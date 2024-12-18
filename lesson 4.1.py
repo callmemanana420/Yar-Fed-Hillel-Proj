@@ -13,7 +13,7 @@ for index, number in enumerate(testList):
 for i in indexOfNumberToEnd[::-1]:
     testList.pop(i)
 
-for i in range(counter):
+for _ in range(counter):
     testList.append(numberToEnd)
 
 

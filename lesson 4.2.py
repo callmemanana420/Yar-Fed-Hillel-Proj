@@ -1,14 +1,13 @@
 #1
 testList = [0, 1, 7, 2, 4, 8]
 
-lenOfTestList = len(testList)
-
 finalResult = 0
 
-for i in testList[::2]:
-    finalResult += i
+if len(testList) > 0:
+    for i in testList[::2]:
+        finalResult += i
 
-finalResult = finalResult * testList[-1]
+    finalResult = finalResult * testList[-1]
 
 print(finalResult)
 
