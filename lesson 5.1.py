@@ -25,7 +25,7 @@ if variableName[0] in string.digits:
     print("First symbol is number!")
     isValid = False
     
-elif blackListWord in variableName and len(blackListWord) == len(variableName):
+elif blackListWord == variableName:
     print("Black list word!")
     isValid = False
 
