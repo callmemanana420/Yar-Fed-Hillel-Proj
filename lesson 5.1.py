@@ -1,7 +1,6 @@
 import string
 
-variableName = "assert_exception"
-# variableName = "Enter name of the variable: "
+variableName = input("Enter name of the variable: ")
 correctSymbols = string.ascii_lowercase + string.digits + "_"
 blackListWord = "assert"
 
