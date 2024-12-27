@@ -13,6 +13,7 @@ for i in variableName:
         isValid = False
         break
         
+#.find("__")
 
 for index, symbol in enumerate(variableName):
     if symbol == "_" and index != (len(variableName) - 1):
