@@ -41,6 +41,16 @@ def main():
 	except AddTenPlusError as errorText:
 		print(errorText)
 
+	#14.2
+	gr = Group('PD1')
+	gr.add_student(st1)
+	gr.add_student(st2)
+	print(gr)
+	assert gr.find_student('Jobs') == st1  # 'Steve Jobs'
+	assert gr.find_student('Jobs2') is None
+	gr.find_student('Jobs') # 'Steve Jobs'
+
+
 
 
 if __name__ == '__main__':
