@@ -1,0 +1,2 @@
+class AddTenPlusError(Exception):
+    pass
