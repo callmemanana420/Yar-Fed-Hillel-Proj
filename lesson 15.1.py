@@ -12,6 +12,8 @@ class Rectangle:
             if square % i == 0:
                 return i
 
+        
+
     def find_second_side_from_square(self, square, first_side):
         return square / first_side
 
@@ -54,6 +56,5 @@ assert r3.get_square() == 26, 'Test3'
 
 r4 = r1 * 4
 assert r4.get_square() == 32, 'Test4'
-print(r4.get_square())
 
 assert Rectangle(3, 6) == Rectangle(2, 9), 'Test5'
